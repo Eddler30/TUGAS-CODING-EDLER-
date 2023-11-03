@@ -116,6 +116,26 @@ System.out.println("Zodiak Anda adalah " + zodiacSign + ".");: Jika kondisi dala
 CONTOHNYA 
 ![Screenshot (28)](https://github.com/Eddler30/TUGAS-CODING-EDLER-/assets/149713403/f86f53fb-9a08-4b43-904e-456a943c3581)
 
+# TUGAS 4
+1
+
+        // Membuat sebuah array integer
+        int[] angka = {1, 2, 3, 4, 5};
+int[] angka: Ini adalah deklarasi variabel yang membuat sebuah array integer dengan nama angka. Tanda [] menunjukkan bahwa ini adalah tipe data array yang akan berisi bilangan bulat.
+{1, 2, 3, 4, 5}: Ini adalah inisialisasi array. Dalam kurung kurawal ini, Anda menyediakan nilai-nilai yang akan disimpan dalam array. Dalam contoh ini, array angka diisi dengan lima nilai, yaitu 1, 2, 3, 4, dan 5.
+
+2
+
+    // Menampilkan semua nilai dalam array menggunakan perulangan for
+        for (int i = 0; i < angka.length; i++) {
+            System.out.println("Nilai ke-" + (i + 1) + ": " + angka[i]);
+for (int i = 0; i < angka.length; i++) {: Ini adalah perulangan for yang digunakan untuk mengiterasi melalui semua elemen dalam array angka. Perulangan ini dimulai dengan inisialisasi variabel i ke 0. Kondisi i < angka.length menentukan bahwa perulangan akan berlanjut selama i kurang dari panjang (jumlah elemen) array angka. Pada setiap iterasi, i akan ditambahkan dengan 1 menggunakan i++.
+System.out.println("Nilai ke-" + (i + 1) + ": " + angka[i]);: Ini adalah pernyataan yang digunakan untuk mencetak nilai dalam array.
+CONTOHNYA
+![Screenshot (29)](https://github.com/Eddler30/TUGAS-CODING-EDLER-/assets/149713403/ad9d10c3-cac9-45a3-81a6-c7f6bbc68b9a)
+
+
+
 
     
 
